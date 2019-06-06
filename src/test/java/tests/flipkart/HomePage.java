@@ -22,6 +22,7 @@ public class HomePage extends Base {
 		log.info("Driver is initialized");
 		driver.get(prop.getProperty("flipkartUrl"));
 		log.info("Navigated to Home Page");
+		System.out.println("Git Test sdsd");
 	}
 
 	@Test(dataProvider="getData")
