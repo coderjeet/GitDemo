@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="tests.flipkart.Listners"/>
+  </listeners>
+  <test name="Test HomePage Flipkart(failed)">
+    <classes>
+      <class name="tests.flipkart.ValidateHomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="shutdown"/>
+        </methods>
+      </class> <!-- tests.flipkart.ValidateHomePage -->
+      <class name="tests.flipkart.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="shutdown"/>
+        </methods>
+      </class> <!-- tests.flipkart.HomePage -->
+    </classes>
+  </test> <!-- Test HomePage Flipkart(failed) -->
+</suite> <!-- Failed suite [Suite] -->

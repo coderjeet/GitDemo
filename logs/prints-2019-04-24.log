@@ -1,0 +1,8 @@
+16:33:33.374 [main] INFO  resources.Base - Successfully signedin
+16:33:35.702 [main] INFO  resources.Base - Browser closed
+16:34:16.616 [main] INFO  resources.Base - Navigated to the URL
+16:34:16.697 [main] INFO  resources.Base - Successfully validated Login text
+16:34:21.545 [main] INFO  resources.Base - Driver is initialized
+16:34:42.783 [main] INFO  resources.Base - Navigated to Home Page
+16:34:43.660 [main] INFO  resources.Base - Successfully signedin
+16:34:45.992 [main] INFO  resources.Base - Browser closed

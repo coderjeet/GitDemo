@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+   	  <listener class-name="tests.flipkart.Listners"/>
+   	  <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+
+  <test  name="Home Page Validation Flipkart">
+    <classes>
+      <class name="tests.flipkart.ValidateHomePage"/>
+     </classes>  
+  </test>
+  
+  
+   <test  name="Test HomePage Flipkart">
+   	 <classes>
+      <class name="tests.flipkart.HomePage"/>
+    </classes>
+   </test> 
+    
+</suite> 
